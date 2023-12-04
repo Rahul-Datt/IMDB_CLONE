@@ -1,0 +1,30 @@
+.header {
+    padding: 1rem 3rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.headerLeft a{
+    text-decoration: none;
+    color: white
+}
+
+.headerLeft a > span{
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+.headerRight a{
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}

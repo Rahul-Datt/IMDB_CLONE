@@ -1,0 +1,61 @@
+.signup-container{
+    width: fit-content;
+    margin: 0 auto;
+    color: white;
+}
+
+.imdb-logo{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.signup-form-container {
+    margin-top: 2rem;
+    border: 1px solid lightgray;
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem 5rem;
+}
+
+.signup-form-container h1 {
+    text-align: center;
+}
+
+.signup-form-container form div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.signup-form-container form div input{
+    width: 100%;
+    padding: 0.8rem 0.5rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.signup-form-container form div button{
+    width: 100%;
+    background-color: #fed815;
+    border: none;
+    padding: 0.5rem 0;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.have-account-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.have-account-container a{
+    color: #fed815;
+    text-decoration: none;
+}

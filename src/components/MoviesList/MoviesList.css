@@ -1,0 +1,19 @@
+.movies__list{
+    padding: 3rem;
+    color: white;
+}
+
+.movies__list__title{
+    margin: 2rem 0;
+}
+
+.movies__list__title h1{
+    font-weight: 100;
+    font-size: 1.5rem; 
+}
+
+.movies__list__cards__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
